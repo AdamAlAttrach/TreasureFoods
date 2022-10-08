@@ -1,0 +1,80 @@
+
+.menu-container {
+display: flexbox;
+justify-content: center;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.home {
+    margin-left: 20px;
+}
+
+.login {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.signup-form-form {
+    flex-wrap: wrap;
+}
+
+.btn {
+    margin-left: 20px;
+}
+
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.socials {
+    display: flex;
+    
+}
+
+.credit {
+    
+    color: white
+    
+}
+.contact {
+    color: white;
+    margin-left: 20px;
+    
+}
+
+.navbar-nav.navbar-right {
+    justify-content: space-between;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    object-fit: scale-down;
+}
+
