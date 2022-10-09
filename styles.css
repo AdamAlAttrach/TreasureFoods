@@ -78,3 +78,28 @@ justify-content: center;
     object-fit: scale-down;
 }
 
+.login-form {
+    margin-left: 20px;
+    padding-top: 60px;
+    
+}
+.mb3 {
+    margin-bottom: 20px;
+}
+
+.foot-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.signup-form {
+    padding-top: 60px;
+    margin-left: 20px;
+}
+
+.welcome {
+    padding-top: 60px;
+}

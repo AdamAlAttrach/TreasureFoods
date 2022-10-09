@@ -19,7 +19,7 @@
 <body> 
     <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top bg-primary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.php"><i class="fa-solid fa-coins"></i>TreasureFood</a>
+            <a class="navbar-brand" href="index.php"><i class="fa-solid fa-coins fa-bounce " style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; --fa-bounce-rebound: 0;" ></i>TreasureFood</a>
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
             </ul>
