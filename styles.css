@@ -124,10 +124,12 @@ section{
 
 
 
-
+.categories {
+    padding-top: 150px;
+}
 .categories .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(56rem, 1fr));
     gap:1.5rem;
 }
 
@@ -164,9 +166,6 @@ section{
     padding:1rem 0;
 }
 
-.box-container {
-    padding-top: 200;
-}
 
 
 
