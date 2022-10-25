@@ -13,7 +13,7 @@ if (isset($_SESSION["usersuid"])) {
     <div class="box-container">
 
         <div class="box">
-            <img src="images/vegetables.jpg" alt="">
+            <img src="images/vegetables.jpg" class="img-fluid" alt="">
             <h3>Vegetables</h3>
             <p>Tomatoes are in this section</p>
             <a href="vegetable.php" class="btn btn-info">Shop Now!</a>
@@ -23,14 +23,14 @@ if (isset($_SESSION["usersuid"])) {
             <img src="images/fruits.jpg" alt="">
             <h3>Fruits</h3>
             <p>Have a taste of our delicious apples!</p>
-            <a href="fruits.php" class="btn btn-info">Shop Now!!</a>
+            <a href="fruits.php" class="btn btn-info">Shop Now!</a>
         </div>
 
         <div class="box">
             <img src="images/cereal.jpg" alt="">
             <h3>Dairy</h3>
             <p>All part of a nutritious breakfast!</p>
-            <a href="dairy.php" class="btn btn-info">shop now</a>
+            <a href="dairy.php" class="btn btn-info">Shop Now!</a>
         </div>
 
         <div class="box">
@@ -51,7 +51,7 @@ if (isset($_SESSION["usersuid"])) {
             <img src="images/sweets.jpg" alt="">
             <h3>Treasure Trove</h3>
             <p>Approach with vigilance</p>
-            <a href="wine.php" class="btn btn-info">Shop Now!</a>
+            <a href="sweets.php" class="btn btn-info">Shop Now!</a>
         </div>
 
     </div>
