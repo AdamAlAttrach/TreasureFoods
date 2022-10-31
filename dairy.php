@@ -7,24 +7,27 @@
     <div class="box-container">
 
         <div class="box">
-            <img src="images/milk.jpg" alt="">
-            <h3>Milk</h3>
+            <img class="shop-item-image" src="images/milk.jpg" alt="">
+            <h3 class="shop-item-title">Milk</h3>
+            <h4 class="shop-item-price">$10.99</h4>
             <p></p>
-            <a href="vegetable.php" class="btn btn-info">Add to cart!</a>
+            <button class="btn btn-info cart-add" type="button">Add to cart!</button>
         </div>
 
         <div class="box">
-            <img src="images/cheese.jpg" alt="">
-            <h3>Cheese</h3>
+            <img class="shop-item-image" src="images/cheese.jpg" alt="">
+            <h3 class="shop-item-title">Cheese</h3>
+            <h4 class="shop-item-price">$10.99</h4>
             <p></p>
-            <a href="fruits.php" class="btn btn-info">Add to cart!</a>
+            <button class="btn btn-info cart-add" type="button">Add to cart!</button>
         </div>
 
         <div class="box">
-            <img src="images/yogurt.jpg" alt="">
-            <h3>Yogurt</h3>
+            <img class="shop-item-image" src="images/yogurt.jpg" alt="">
+            <h3 class="shop-item-title">Yogurt</h3>
+            <h4 class="shop-item-price">$10.99</h4>
             <p></p>
-            <a href="dairy.php" class="btn btn-info">Add to cart!</a>
+            <button class="btn btn-info cart-add" type="button">Add to cart!</button>
         </div>
 
     </div>
