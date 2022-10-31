@@ -1,3 +1,4 @@
+
 if (document.readyState == 'loading') {
     document.addEventListener('DOMContentLoaded', ready)
 
@@ -55,13 +56,12 @@ function addToCartClicked(event) {
 function addItemToCart(title, price, imageSrc) {
     var cartRow = document.createElement('div')
     cartRow.innerText = title
-    var cartItemContainer = document.getElementsByClassName('cart-items')[0]
-    console.log(cartItemContainer)
+    var cartItems = document.getElementsByClassName('cart-items')[0]
+    console.log(cartItems)
 }
 
 function updateCartTotal() {
     var cartItemContainer = document.getElementsByClassName('cart-items')[0]
-    console.log(cartItemContainer)
     var cartRows = cartItemContainer.getElementsByClassName('cart-row')
     var total = 0
     for (var i = 0; i < cartRows.length; i++) {
